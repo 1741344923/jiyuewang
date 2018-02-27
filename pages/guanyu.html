@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="../style/commons/common.css">
+        <link rel="stylesheet" href="../style/pages/guanyu.css">
+        <script type="text/javascript" src="../js/commons/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="../js/commons/jquery.SuperSlide.2.1.1.js"></script>
+    </head>
+    <body>
+        <div class="nav">
+            <ul class="clearfix">
+                <li class=""><a href="shouye.html">首页</a></li>
+                <li class="on"><a href="guanyu.html">关于计约网</a></li>
+                <li><a href="jiarutuiguang.html">加入推广</a></li>
+                <li><a href="lianxiwomen.html">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="about">
+            <div class="lease">
+                <ul class="hd">
+                    <li class="on"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="bd">
+                    <li><img src="../images/commons/13.png" alt=""></li>
+                    <li><img src="../images/commons/14.png" alt=""></li>
+                    <li><img src="../images/commons/15.png" alt=""></li>
+                    <li><img src="../images/commons/16.png" alt=""></li>
+                </ul>
+                <script type="text/javascript">
+                    $(function(){
+                        $(".lease").slide({
+                            titCell: '.hd li', // 圆点
+                            mainCell: ".bd",   // 每项切换的父级
+                            autoPlay: true,    // 自动播放
+                            interTime: 2000,   // 每隔几秒走一次
+                            effect: 'leftLoop' // 特效，展示方式
+                        });
+                    });
+                </script>
+            </div>
+            <div class="survey">
+                <ul>
+                    <li>
+                        <div class="title">
+                            <h2><span>公司<i>概况</i></span></h2>
+                            <em>Company profile</em>
+                        </div>
+                        <div class="content">
+                            上海枢贝信息技术有限公司成立于2017年，其注册资金10000.0000万元。公司坐落在国家经济、贸易中心上海市主要从事信息、计算机科技领域类的技术开发、技术咨询、技术服务、技术转让、计算机系统集成、设计制作各类广告、利用自有媒体发布广告等项目。<br>
+                            依托强大的互联网，响应国家大众创业万众创新的号召。让大众利用自己的闲余时间创业，实现创业梦想。
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <h2><span>产品<i>简介</i></span></h2>
+                            <em>Product profile</em>
+                        </div>
+                        <div class="content">公司旗下产品《技约网》手机移动端APP。专注于生活服务，技能交友，丰富的内容娱乐以及提供草根创业者创业推广的多元化平台。</div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <h2><span>企业<i>文化</i></span></h2>
+                            <em>corporate culture</em>
+                        </div>
+                        <div class="content">
+                            <p><strong>宗旨：</strong> 实现 “大众创业”与企业互利共赢，共同发展，共同进步</p>
+                            <p><strong>使命：</strong> 让大众创业简单化，利用闲余时间创造人生价值。</p>
+                            <p><strong>经营理念：</strong> 服务第一，客户至上；互利共赢，紧跟共享时代的步伐，创造服务、时间、技能、收益共享。</p>
+                            <p><strong>核心价值：</strong> 围绕“大众创业”为主题，解决失业转创业，成就千万再创业，争做时代排头兵，共享亿万市场。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>copyright © 2017上海信息枢贝信息技术有限公司 版权所有| ICP证</p>
+        </div>
+    </body>
+</html>

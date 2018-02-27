@@ -1,0 +1,92 @@
+body{
+    background: #f5ffff;
+}
+
+.comWidth{
+    width: 1129px;
+    margin: 0 auto;
+}
+.extension_bj{
+    height: 1096px;
+    background: url(../../images/jiarutuiguang/19.png) no-repeat center center;
+    margin-top: 45px;
+}
+.triple{
+    text-align: center;
+    margin-top: 61px;
+}
+.triple a{
+    display: inline-block;
+    height: 100%;
+}
+.triple a img{
+    width: 115px;
+    height: 115px;
+}
+.triple ul{
+    padding-top: 60px;
+}
+.triple ul li{
+    margin-bottom: 136px;
+}
+.agent .city{
+    text-align: center;
+    font-size: 24px;
+}
+.agent .city em{
+    width: 368px;
+    height: 64px;
+    line-height: 64px;
+    color: white;
+    background: #e60012;
+    border: 1px solid #393939;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    font-style: normal;
+}
+.agent p{
+    color: #02b1f2;
+    height: 60px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.divide table{
+    border: 2px solid #d0d0d0;
+    color: white;
+    font-family: "宋体";
+}
+.divide ul li{
+    color: #7c7c7c;
+}
+table th{
+    background: #02b1f2;
+    font-size: 22px;
+    color: white;
+}
+table td{
+    font-size: 18px;
+}
+.divide table tr th,
+.divide table tr td{
+    width: 264px;
+    height: 83px;
+}
+.divide table tr{
+    background: white;
+    color: #000;
+    text-align: center;
+}
+.divide table tr.yixian,
+.divide table tr.sanxian{
+    background: #6a6a6a;
+    color: white;
+}
+.divide ul{
+    font-size: 16px;
+    padding: 30px 30px;
+    color: black;
+}
+.divide ul li{
+    text-indent: 2em;
+}

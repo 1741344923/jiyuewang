@@ -1,0 +1,84 @@
+.header{
+    height: 800px;
+    background: url(../../images/shouye/1.png) no-repeat center bottom;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    margin-top: -96px;
+    text-align: center;
+}
+.header img.mt120{
+    width: 500px;
+    margin-top: 120px;
+}
+.choice{
+    text-align: center;
+}
+.choice h2{
+    height: 60px;
+    line-height: 60px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #00cccc;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+.choice .choice_bg a.mr{
+    margin-right: 65px;
+}
+.choice .choice_bg a{
+    height: 100%;
+    width: 287px;
+    display: inline-block;
+}
+.switch{
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+    height: 809px;
+}
+.switch .hd{
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    text-align: center;
+    z-index: 2;
+}
+.switch .hd ul li{
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+}
+.switch .hd ul li.on{
+    background: #ff5454;
+}
+
+.switch .hd ul li img{
+    width: 100%;
+}
+.switch .tempWrap{
+    height: 100%;
+}
+.switch .bd{
+    height: 100%;
+}
+.switch .bd li{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+

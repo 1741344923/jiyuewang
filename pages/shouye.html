@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="../style/commons/common.css">
+        <link rel="stylesheet" href="../style/pages/shouye.css">
+        <script type="text/javascript" src="../js/commons/jquery-1.7.2.min.js"></script>
+        <script src="../js/commons/jquery.SuperSlide.2.1.1.js"></script>
+    </head>
+    <body>
+        <div class="nav">
+            <ul class="clearfix">
+                <li class="on"><a href="shouye.html">首页</a></li>
+                <li><a href="guanyu.html">关于计约网</a></li>
+                <li><a href="jiarutuiguang.html">加入推广</a></li>
+                <li><a href="lianxiwomen.html">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="header">
+            <img class="mt120" src="../images/shouye/1-2.png" alt="">
+            <div class="choice">
+                <h2>根据你的手机，选择下载</h2>
+                <div class="choice_bg">
+                    <a href="" class="mr"><img src="../images/shouye/2.png" alt=""></a>
+                    <a href=""><img src="../images/shouye/3.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="switch">
+            <div class="hd">
+                <ul class="clearfix">
+                    <li class="on"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <ul class="bd clearfix">
+                <li style="background-image: url('../images/shouye/4.png');"></li>
+                <li style="background-image: url('../images/shouye/5.png');"></li>
+                <li style="background-image: url('../images/shouye/6.png');"></li>
+                <li style="background-image: url('../images/shouye/12.png');"></li>
+            </ul>
+            <script type="text/javascript">
+                $(function(){
+                    $(".switch").slide({
+                        titCell: '.hd li', // 圆点
+                        mainCell: ".bd",   // 每项切换的父级
+                        effect: 'leftLoop' // 特效，展示方式
+                    });
+                });
+            </script>
+        </div>
+
+        <div class="footer">
+            <p>copyright © 2017上海信息枢贝信息技术有限公司 版权所有| ICP证</p>
+        </div>
+    </body>
+</html>
